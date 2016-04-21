@@ -25,7 +25,6 @@
     </parent>
     <groupId>org.wso2.carbon.extension.identity.authenticator</groupId>
     <artifactId>org.wso2.carbon.extension.identity.authenticator.tiqr.connector</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>WSO2 Carbon - Authenticator Library For Tiqr</name>
     <url>http://wso2.org</url>
