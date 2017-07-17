@@ -373,7 +373,10 @@ public class TiqrAuthenticator extends AbstractApplicationAuthenticator implemen
             }
             return TiqrConstants.FAILED + e.getMessage();
         } finally {
-            connection.disconnect();
+            if(connection != null){
+                connection.disconnect();
+            }
+
         }
         return responseString.toString();
     }
