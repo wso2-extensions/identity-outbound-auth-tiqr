@@ -203,7 +203,7 @@ public class QRCode extends HttpServlet {
             }
             return TiqrConstants.FAILED + e.getMessage();
         } finally {
-            if(connection != null){
+            if (connection != null) {
                 connection.disconnect();
             }
         }
