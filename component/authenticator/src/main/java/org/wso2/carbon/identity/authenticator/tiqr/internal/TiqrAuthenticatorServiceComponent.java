@@ -35,7 +35,7 @@ import java.util.Hashtable;
  */
 public class TiqrAuthenticatorServiceComponent {
 
-    private static Log log = LogFactory.getLog(TiqrAuthenticatorServiceComponent.class);
+    private static final Log log = LogFactory.getLog(TiqrAuthenticatorServiceComponent.class);
 
     public static RealmService getRealmService() {
         return (RealmService) PrivilegedCarbonContext.getThreadLocalCarbonContext()

@@ -70,7 +70,7 @@ import org.wso2.carbon.utils.multitenancy.MultitenantUtils;
 public class TiqrAuthenticator extends AbstractApplicationAuthenticator implements FederatedApplicationAuthenticator {
 
     private static final long serialVersionUID = 1179165995021182755L;
-    private static Log log = LogFactory.getLog(TiqrAuthenticator.class);
+    private static final Log log = LogFactory.getLog(TiqrAuthenticator.class);
 
     @Override
     public AuthenticatorFlowStatus process(HttpServletRequest request, HttpServletResponse response,
