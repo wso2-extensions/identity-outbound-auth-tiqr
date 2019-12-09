@@ -40,7 +40,7 @@ import org.apache.commons.logging.LogFactory;
 
 @WebServlet("/QRCode")
 public class QRCode extends HttpServlet {
-    private static Log log = LogFactory.getLog(QRCode.class);
+    private static final Log log = LogFactory.getLog(QRCode.class);
     private static final long serialVersionUID = 1L;
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
